@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{> headerlinks}}
+</head>
+
+<body>
+    <!--partials ko call-->
+    {{>navbar}}
+    <!--<h2>Welcome to the static web</h2>
+    <button class = "btn btn-danger">hello</button>-->
+   
+    <!--main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class = "row">
+                    <!--left div-->
+                    <div class = "col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src = "images/about.jpeg" alt = "prachi" class = "img-fluid" title= "prachi">
+                        </figure>
+                     </div>
+                    <div class = "col-md-6 col-12 main_header_left">
+<p>Welcome to Weather app</p>
+<h1>I Am A <span class = "text_clr">Mern Stack Developer, </span> Youtuber</h1>
+<a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiKqf3As7DwAhVRdCsKHT59BygQFjAAegQIAhAE&url=https%3A%2F%2Fwww.google.com%2F&usg=AOvVaw1xDfJh-YduXzT4-Mrql0P3" target="_google"><button>About Me</button></a>
+                    </div>
+                    <!--right div-->
+                   <!-- <div class = "col-md-6 col-12 main_header_right">
+                       <figure>
+                           <img src = "images/about.jpeg" alt = "prachi" class = "img-fluid" title= "prachi">
+                       </figure>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--footer
+<footer>
+    <p>created by Prachi chauhan</p>
+</footer>-->
+{{> footer}}
+</body>
+</html>

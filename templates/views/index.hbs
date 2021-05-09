@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>headerlinks}}
+</head>
+
+<body>
+    <!--partials ko call-->
+    {{>navbar}}
+    <!--<h2>Welcome to the static web</h2>
+    <button class = "btn btn-danger">hello</button>-->
+ 
+    <!--main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class = "row">
+                    <!--left div-->
+                    <div class = "col-md-6 col-12 main_header_left">
+<p>Welcome to Weather app</p>
+<h1>Get latest <span class = "text_clr">Weather</span> Info of your City</h1>
+<a href = "/weather"><button>Check Now</button></a>
+                    </div>
+                    <!--right div-->
+                    <div class = "col-md-6 col-12 main_header_right">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class=" w-100" src="images/bg1.jpeg" alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class=" w-100" src="images/bg2.jpeg" alt="Second slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class=" w-100" src="images/bg3.jpeg" alt="Third slide">
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--footer
+<footer>
+    <p>created by Prachi chauhan</p>
+</footer>-->
+<!--call footer file-->
+{{> footer}}
+</body>
+</html>
